@@ -1,0 +1,77 @@
+.skillTag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: default;
+    border: 2px solid;
+}
+
+.skillTag:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skillName {
+    font-size: 0.95rem;
+}
+
+.skillLevel {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.3);
+    text-transform: capitalize;
+}
+
+/* Default style (no level) */
+.skillTag {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border-color: transparent;
+}
+
+/* Expert Level */
+.skillTag.expert {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    color: #fff;
+    border-color: transparent;
+}
+
+/* Advanced Level */
+.skillTag.advanced {
+    background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+    color: #fff;
+    border-color: transparent;
+}
+
+/* Intermediate Level */
+.skillTag.intermediate {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: #fff;
+    border-color: transparent;
+}
+
+/* Beginner Level */
+.skillTag.beginner {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    color: #fff;
+    border-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .skillTag {
+        padding: 0.5rem 1rem;
+    }
+
+    .skillName {
+        font-size: 0.9rem;
+    }
+
+    .skillLevel {
+        font-size: 0.7rem;
+    }
+}

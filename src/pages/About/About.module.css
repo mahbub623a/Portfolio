@@ -1,0 +1,131 @@
+.about {
+    min-height: 100vh;
+    padding: 6rem 0 4rem;
+    background: #f8fafc;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #64748b;
+}
+
+.content {
+    display: block;
+}
+
+.textSection {
+    width: 100%;
+}
+
+.textSection h2 {
+    font-size: 2rem;
+    color: #2563eb;
+    margin-bottom: 1.5rem;
+}
+
+.textSection p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #475569;
+    margin-bottom: 1.5rem;
+}
+
+.infoGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.infoItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.infoItem strong {
+    color: #2563eb;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.infoItem span {
+    color: #1e293b;
+    font-size: 1rem;
+}
+
+.interests {
+    margin-top: 3rem;
+}
+
+.interests h3 {
+    font-size: 1.5rem;
+    color: #1e293b;
+    margin-bottom: 1rem;
+}
+
+.interestText {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #475569;
+    margin: 0;
+}
+
+@media (max-width: 968px) {
+    .content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .imageSection {
+        position: static;
+    }
+
+    .profileImage {
+        max-width: 250px;
+    }
+
+    .textSection {
+        padding: 2rem;
+    }
+
+    .infoGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 5rem 0 2rem;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .textSection h2 {
+        font-size: 1.5rem;
+    }
+
+    .textSection p {
+        font-size: 1rem;
+    }
+}
