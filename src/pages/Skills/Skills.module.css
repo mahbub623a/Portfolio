@@ -1,7 +1,7 @@
 .skills {
     min-height: 100vh;
     padding: 6rem 0 4rem;
-    background: #f8fafc;
+    background: #fff;
 }
 
 .container {
@@ -31,10 +31,8 @@
 }
 
 .allSkillsSection {
-    background: #fff;
     padding: 3rem;
     border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .categoryGroup {

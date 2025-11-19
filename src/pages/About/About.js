@@ -12,46 +12,46 @@ const About = () => {
 
                 <div className={styles.content}>
                     <div className={styles.textSection}>
-                        <h2>Hello! I'm John Doe</h2>
+                        <h2>Hello! I'm Mahbubur Rahman</h2>
                         <p>
-                            I'm a passionate Full Stack Developer with over 5 years of experience in building
-                            web applications and digital solutions. I specialize in creating elegant, efficient,
-                            and user-friendly applications using modern technologies.
+                            I'm a passionate Computer Science student at United International University, currently in my 4th year.
+                            I'm a competitive programmer and Full-stack web developer with experience working on over 10+ projects.
+                            I specialize in creating elegant, efficient, and user-friendly applications using modern technologies.
                         </p>
                         <p>
-                            My journey in software development started with a curiosity about how things work
-                            on the internet. Since then, I've been constantly learning and growing, working on
-                            projects ranging from small business websites to large-scale enterprise applications.
+                            My interests span across competitive programming, full-stack web development, software testing,
+                            and machine learning. I'm constantly learning and growing, working on projects ranging from
+                            small applications to large-scale enterprise solutions.
                         </p>
                         <p>
-                            When I'm not coding, you can find me exploring new technologies, contributing to
-                            open-source projects, or sharing my knowledge through blog posts and mentoring.
+                            When I'm not coding, you can find me gaming, traveling to new places, or capturing moments
+                            through photography. I'm always eager to take on new challenges and contribute to innovative projects.
                         </p>
 
                         <div className={styles.infoGrid}>
                             <div className={styles.infoItem}>
                                 <strong>Location:</strong>
-                                <span>San Francisco, CA</span>
+                                <span>Dhaka, Bangladesh</span>
                             </div>
                             <div className={styles.infoItem}>
                                 <strong>Email:</strong>
-                                <span>john.doe@example.com</span>
+                                <span>mrahman623a@gmail.com</span>
                             </div>
                             <div className={styles.infoItem}>
                                 <strong>Phone:</strong>
-                                <span>+1 (555) 123-4567</span>
+                                <span>01744177620</span>
                             </div>
                             <div className={styles.infoItem}>
-                                <strong>Availability:</strong>
-                                <span>Open to opportunities</span>
+                                <strong>CGPA:</strong>
+                                <span>3.41/4.0</span>
                             </div>
                         </div>
 
                         <div className={styles.interests}>
                             <h3>Interests & Hobbies</h3>
                             <p className={styles.interestText}>
-                                Mobile Development, UI/UX Design, Cloud Computing, Machine Learning,
-                                Reading, Gaming, Travel, Photography
+                                Competitive Programming, Full-Stack Development, Software Testing, Machine Learning,
+                                Gaming, Travel, Photography
                             </p>
                         </div>
                     </div>

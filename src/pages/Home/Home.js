@@ -18,11 +18,11 @@ const Home = () => {
             <div className={styles.hero}>
                 <div className={styles.container}>
                     <div className={styles.content}>
-                        <h1 className={styles.greeting}>Hi, I'm <span className={styles.name}>John Doe</span></h1>
-                        <h2 className={styles.title}>Full Stack Developer & Designer</h2>
+                        <h1 className={styles.greeting}>Hi, I'm <span className={styles.name}>Mahbubur Rahman</span></h1>
+                        <h2 className={styles.title}>Full Stack Developer & Competitive Programmer</h2>
                         <p className={styles.description}>
                             I create beautiful, functional, and user-friendly digital experiences.
-                            Passionate about building innovative solutions that make a difference.
+                            Passionate about competitive programming, web development, and machine learning.
                         </p>
                         <div className={styles.cta}>
                             <a
@@ -64,22 +64,22 @@ const Home = () => {
                     <div className={styles.highlightGrid}>
                         <div className={styles.highlightCard}>
                             <div className={styles.icon}>🚀</div>
-                            <h3>50+</h3>
+                            <h3>10+</h3>
                             <p>Projects Completed</p>
                         </div>
                         <div className={styles.highlightCard}>
                             <div className={styles.icon}>⭐</div>
-                            <h3>5+</h3>
-                            <p>Years Experience</p>
+                            <h3>3.41</h3>
+                            <p>CGPA</p>
                         </div>
                         <div className={styles.highlightCard}>
-                            <div className={styles.icon}>😊</div>
-                            <h3>30+</h3>
-                            <p>Happy Clients</p>
+                            <div className={styles.icon}>🎓</div>
+                            <h3>4th Year</h3>
+                            <p>CS Student</p>
                         </div>
                         <div className={styles.highlightCard}>
                             <div className={styles.icon}>🏆</div>
-                            <h3>15+</h3>
+                            <h3>3</h3>
                             <p>Awards Won</p>
                         </div>
                     </div>

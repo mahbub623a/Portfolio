@@ -56,15 +56,16 @@ export const skillsData = [
         category: 'Frontend Development',
         skills: [
             { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+            { name: 'React Native', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
             { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
             { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
             { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
             { name: 'CSS3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
             { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
             { name: 'Material-UI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg' },
-            { name: 'Redux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' },
+            // { name: 'Redux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' },
             { name: 'Next.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
-            { name: 'Vue.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' }
+            // { name: 'Vue.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' }
         ]
     },
     {
@@ -73,23 +74,23 @@ export const skillsData = [
             { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
             { name: 'Express', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
             { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-            { name: 'Django', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg' },
+            // { name: 'Django', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg' },
             { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
-            { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
+            // { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
             { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
-            { name: 'GraphQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg' }
+            // { name: 'GraphQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg' }
         ]
     },
     {
         category: 'DevOps & Tools',
         skills: [
             { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
-            { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
-            { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg' },
+            // { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
+            // { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg' },
             { name: 'Linux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' },
-            { name: 'Nginx', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg' },
-            { name: 'Jest', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg' },
-            { name: 'Webpack', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg' },
+            // { name: 'Nginx', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg' },
+            // { name: 'Jest', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg' },
+            // { name: 'Webpack', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg' },
             { name: 'GitHub', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' }
         ]
     },
@@ -101,45 +102,54 @@ export const skillsData = [
             { name: 'VS Code', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' },
             { name: 'Firebase', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
             { name: 'Bootstrap', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
-            { name: 'Sass', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' }
+            // { name: 'Sass', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' }
         ]
     }
 ]; export const educationData = [
     {
         degree: 'Bachelor of Science in Computer Science',
-        institution: 'University of California, Berkeley',
-        location: 'Berkeley, CA',
-        period: '2015 - 2019',
-        description: 'Focused on software engineering, algorithms, and data structures.',
+        institution: 'United International University',
+        location: 'Dhaka, Bangladesh',
+        period: 'Running',
+        description: 'Currently in 4th year, specializing in software development, competitive programming, and machine learning.',
         achievements: [
-            'Graduated with Honors (GPA: 3.8/4.0)',
-            'Dean\'s List for 6 semesters',
-            'Led the Computer Science Club',
-            'Published research paper on Machine Learning'
+            'CGPA: 3.41/4.0',
+            'Scholarship Award Recipient',
+            'Active competitive programmer',
+            'Full-stack web development experience'
         ]
     },
     {
-        degree: 'Full Stack Web Development Bootcamp',
-        institution: 'Le Wagon',
-        location: 'San Francisco, CA',
+        degree: 'Alim Examination',
+        institution: 'Pabna Islamia Madrasah',
+        location: 'Pabna, Bangladesh',
         period: '2019',
-        description: 'Intensive 9-week coding bootcamp covering modern web development technologies.',
+        description: 'Completed Alim level education with excellent academic performance.',
         achievements: [
-            'Built 3 full-stack web applications',
-            'Graduated in top 10% of cohort',
-            'Won "Best Final Project" award'
+            'GPA: 5.0/5.0',
+            'Outstanding academic achievement'
         ]
     },
     {
-        degree: 'High School Diploma',
-        institution: 'Lincoln High School',
-        location: 'San Francisco, CA',
-        period: '2011 - 2015',
-        description: 'Focus on STEM subjects with advanced placement courses.',
+        degree: 'Dakhil Examination',
+        institution: 'Pabna Islamia Madrasah',
+        location: 'Pabna, Bangladesh',
+        period: '2017',
+        description: 'Completed Dakhil level education with outstanding results.',
         achievements: [
-            'Valedictorian',
-            'National Merit Scholar',
-            'Captain of Robotics Team'
+            'GPA: 5.0/5.0',
+            'Scholarship Award Recipient'
+        ]
+    },
+    {
+        degree: 'Junior Dakhil Examination',
+        institution: 'Pabna Islamia Madrasah',
+        location: 'Pabna, Bangladesh',
+        period: '2014',
+        description: 'Completed Junior Dakhil education with excellent academic performance.',
+        achievements: [
+            'GPA: 5.0/5.0',
+            'Scholarship Award Recipient'
         ]
     }
 ];
@@ -147,9 +157,9 @@ export const skillsData = [
 export const experienceData = [
     {
         position: 'Senior Full Stack Developer',
-        company: 'TechCorp Inc.',
-        location: 'San Francisco, CA',
-        period: '2022 - Present',
+        company: 'SinapsisIT',
+        location: 'Dhaka, Bangladesh',
+        period: '2025 - Present',
         description: 'Leading development of enterprise-scale web applications and mentoring junior developers.',
         responsibilities: [
             'Architect and develop scalable web applications using React and Node.js',
@@ -158,81 +168,30 @@ export const experienceData = [
             'Conduct code reviews and mentor junior developers',
             'Collaborate with product managers and designers on new features'
         ],
-        technologies: ['React', 'Node.js', 'AWS', 'Docker', 'PostgreSQL']
-    },
-    {
-        position: 'Full Stack Developer',
-        company: 'StartupXYZ',
-        location: 'San Francisco, CA',
-        period: '2020 - 2022',
-        description: 'Developed and maintained multiple client-facing web applications in a fast-paced startup environment.',
-        responsibilities: [
-            'Built responsive web applications from scratch using React and Express',
-            'Integrated third-party APIs and payment gateways',
-            'Optimized application performance and database queries',
-            'Participated in daily standups and sprint planning',
-            'Worked directly with clients to gather requirements'
-        ],
-        technologies: ['React', 'Express', 'MongoDB', 'Redux', 'Material-UI']
-    },
-    {
-        position: 'Junior Web Developer',
-        company: 'Digital Solutions Ltd.',
-        location: 'San Francisco, CA',
-        period: '2019 - 2020',
-        description: 'Assisted in developing and maintaining client websites and web applications.',
-        responsibilities: [
-            'Developed front-end components using HTML, CSS, and JavaScript',
-            'Fixed bugs and implemented new features',
-            'Collaborated with senior developers on larger projects',
-            'Participated in code reviews and team meetings',
-            'Maintained documentation for codebases'
-        ],
-        technologies: ['JavaScript', 'HTML', 'CSS', 'jQuery', 'PHP']
+        technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'REST']
     }
 ];
 
 export const achievementsData = [
     {
         icon: '🏆',
-        year: '2023',
-        title: 'Best Developer Award',
-        organization: 'TechCorp Inc.',
-        description: 'Recognized for outstanding contributions to the company\'s flagship product and exceptional technical leadership.'
-    },
-    {
-        icon: '🎖️',
-        year: '2022',
-        title: 'Hackathon Winner',
-        organization: 'San Francisco Tech Summit',
-        description: 'First place in 48-hour hackathon with an innovative AI-powered productivity tool.'
-    },
-    {
-        icon: '⭐',
-        year: '2021',
-        title: 'Open Source Contributor',
-        organization: 'GitHub',
-        description: 'Contributed to 15+ open-source projects with over 500 stars combined.'
-    },
-    {
-        icon: '📜',
-        year: '2020',
-        title: 'AWS Certified Developer',
-        organization: 'Amazon Web Services',
-        description: 'Achieved AWS Certified Developer - Associate certification.'
+        year: '2025',
+        title: 'UIU CSE Project Show',
+        organization: 'United International University',
+        description: '1st Runners Up among 600+ teams'
     },
     {
         icon: '🎓',
-        year: '2019',
-        title: 'Best Final Project',
-        organization: 'Le Wagon',
-        description: 'Won best final project award for creating an innovative marketplace platform.'
+        year: '2017',
+        title: 'Scholarships Award',
+        organization: 'Pabna Islamia Madrasah',
+        description: '4th in JDC Exam in Rajshahi Division, Madrasah Board'
     },
     {
-        icon: '🌟',
-        year: '2019',
-        title: 'Academic Excellence Award',
-        organization: 'UC Berkeley',
-        description: 'Graduated with honors and received the Computer Science Department Excellence Award.'
+        icon: '🎓',
+        year: '2014',
+        title: 'Scholarships Award',
+        organization: 'Pabna Islamia Madrasah',
+        description: '5th in JDC Exam in Rajshahi Division, Madrasah Board'
     }
 ];

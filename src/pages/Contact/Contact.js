@@ -43,7 +43,7 @@ const Contact = () => {
                                 <div className={styles.contactIcon}>📧</div>
                                 <div>
                                     <h4>Email</h4>
-                                    <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+                                    <a href="mailto:mrahman623a@gmail.com">mrahman623a@gmail.com</a>
                                 </div>
                             </div>
 
@@ -51,7 +51,7 @@ const Contact = () => {
                                 <div className={styles.contactIcon}>📱</div>
                                 <div>
                                     <h4>Phone</h4>
-                                    <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                                    <a href="tel:+8801744177620">01744177620</a>
                                 </div>
                             </div>
 
@@ -59,16 +59,16 @@ const Contact = () => {
                                 <div className={styles.contactIcon}>📍</div>
                                 <div>
                                     <h4>Location</h4>
-                                    <p>San Francisco, CA</p>
+                                    <p>Dhaka, Bangladesh</p>
                                 </div>
                             </div>
 
                             <div className={styles.contactItem}>
                                 <div className={styles.contactIcon}>💼</div>
                                 <div>
-                                    <h4>LinkedIn</h4>
-                                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                                        linkedin.com/in/johndoe
+                                    <h4>Facebook</h4>
+                                    <a href="https://www.facebook.com/mahbub623a" target="_blank" rel="noopener noreferrer">
+                                        facebook.com/mahbub623a
                                     </a>
                                 </div>
                             </div>
@@ -77,10 +77,8 @@ const Contact = () => {
                         <div className={styles.social}>
                             <h3>Follow Me</h3>
                             <div className={styles.socialLinks}>
-                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+                                <a href="https://github.com/mahbub623a" target="_blank" rel="noopener noreferrer">GitHub</a>
+                                <a href="https://www.facebook.com/mahbub623a" target="_blank" rel="noopener noreferrer">Facebook</a>
                             </div>
                         </div>
                     </div>
