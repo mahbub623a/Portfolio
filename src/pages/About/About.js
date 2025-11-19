@@ -43,7 +43,7 @@ const About = () => {
                             </div>
                             <div className={styles.infoItem}>
                                 <strong>CGPA:</strong>
-                                <span>3.41/4.0</span>
+                                <span>0.0/4.0</span>
                             </div>
                         </div>
 

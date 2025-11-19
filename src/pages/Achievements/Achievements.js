@@ -14,7 +14,9 @@ const Achievements = () => {
                 <div className={styles.achievementsGrid}>
                     {achievementsData.map((achievement, index) => (
                         <div key={index} className={styles.achievementCard}>
-                            <div className={styles.icon}>{achievement.icon}</div>
+                            <div className={styles.icon}>
+                                <i className={achievement.icon} style={{ color: achievement.color }}></i>
+                            </div>
                             <div className={styles.year}>{achievement.year}</div>
                             <h3>{achievement.title}</h3>
                             <p className={styles.organization}>{achievement.organization}</p>

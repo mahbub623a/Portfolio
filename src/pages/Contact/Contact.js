@@ -40,7 +40,7 @@ const Contact = () => {
 
                         <div className={styles.contactItems}>
                             <div className={styles.contactItem}>
-                                <div className={styles.contactIcon}>📧</div>
+                                <div className={styles.contactIcon}><i className="fas fa-envelope"></i></div>
                                 <div>
                                     <h4>Email</h4>
                                     <a href="mailto:mrahman623a@gmail.com">mrahman623a@gmail.com</a>
@@ -48,7 +48,7 @@ const Contact = () => {
                             </div>
 
                             <div className={styles.contactItem}>
-                                <div className={styles.contactIcon}>📱</div>
+                                <div className={styles.contactIcon}><i className="fas fa-phone"></i></div>
                                 <div>
                                     <h4>Phone</h4>
                                     <a href="tel:+8801744177620">01744177620</a>
@@ -56,7 +56,7 @@ const Contact = () => {
                             </div>
 
                             <div className={styles.contactItem}>
-                                <div className={styles.contactIcon}>📍</div>
+                                <div className={styles.contactIcon}><i className="fas fa-map-marker-alt"></i></div>
                                 <div>
                                     <h4>Location</h4>
                                     <p>Dhaka, Bangladesh</p>
@@ -64,7 +64,7 @@ const Contact = () => {
                             </div>
 
                             <div className={styles.contactItem}>
-                                <div className={styles.contactIcon}>💼</div>
+                                <div className={styles.contactIcon}><i className="fab fa-facebook"></i></div>
                                 <div>
                                     <h4>Facebook</h4>
                                     <a href="https://www.facebook.com/mahbub623a" target="_blank" rel="noopener noreferrer">
@@ -77,8 +77,15 @@ const Contact = () => {
                         <div className={styles.social}>
                             <h3>Follow Me</h3>
                             <div className={styles.socialLinks}>
-                                <a href="https://github.com/mahbub623a" target="_blank" rel="noopener noreferrer">GitHub</a>
-                                <a href="https://www.facebook.com/mahbub623a" target="_blank" rel="noopener noreferrer">Facebook</a>
+                                <a href="https://github.com/mahbub623a" target="_blank" rel="noopener noreferrer">
+                                    <i className="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/mrahman441" target="_blank" rel="noopener noreferrer">
+                                    <i className="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://www.facebook.com/mahbub623a" target="_blank" rel="noopener noreferrer">
+                                    <i className="fab fa-facebook"></i>
+                                </a>
                             </div>
                         </div>
                     </div>

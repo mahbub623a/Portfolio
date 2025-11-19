@@ -41,7 +41,7 @@
 }
 
 .info h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #2563eb;
     margin-bottom: 1rem;
 }
@@ -50,12 +50,13 @@
     color: #475569;
     line-height: 1.6;
     margin-bottom: 2rem;
+    font-size: 0.95rem;
 }
 
 .contactItems {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.3rem;
     margin-bottom: 2rem;
 }
 
@@ -66,32 +67,35 @@
 }
 
 .contactIcon {
-    font-size: 2rem;
-    width: 50px;
-    height: 50px;
+    font-size: 1.2rem;
+    width: 45px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 12px;
+    background: #1e293b;
+    border-radius: 10px;
     flex-shrink: 0;
+    color: #fff;
 }
 
 .contactItem h4 {
     color: #2563eb;
     margin-bottom: 0.3rem;
-    font-size: 1rem;
+    font-size: 0.95rem;
 }
 
 .contactItem p {
     color: #475569;
     margin: 0;
+    font-size: 0.9rem;
 }
 
 .contactItem a {
     color: #2563eb;
     text-decoration: none;
     transition: color 0.3s ease;
+    font-size: 0.9rem;
 }
 
 .contactItem a:hover {
@@ -108,7 +112,7 @@
 .social h3 {
     color: #1e293b;
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .socialLinks {
@@ -118,18 +122,23 @@
 }
 
 .socialLinks a {
-    padding: 0.6rem 1.2rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    width: 42px;
+    height: 42px;
+    background: #1e293b;
     color: #fff;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 50%;
+    font-size: 1.1rem;
     font-weight: 500;
     transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .socialLinks a:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 4px 12px rgba(30, 41, 59, 0.4);
 }
 
 .formContainer {
@@ -142,7 +151,7 @@
 .form {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.4rem;
 }
 
 .formGroup {
@@ -154,15 +163,15 @@
 .formGroup label {
     color: #1e293b;
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
 
 .formGroup input,
 .formGroup textarea {
-    padding: 0.9rem;
+    padding: 0.8rem;
     border: 2px solid #e2e8f0;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-family: inherit;
     transition: all 0.3s ease;
 }
@@ -180,12 +189,12 @@
 }
 
 .submitBtn {
-    padding: 1rem 2rem;
+    padding: 0.9rem 1.8rem;
     background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
     color: #fff;
     border: none;
     border-radius: 8px;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;

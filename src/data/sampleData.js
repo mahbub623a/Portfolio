@@ -2,53 +2,53 @@
 
 export const projectsData = [
     {
-        title: 'E-Commerce Platform',
-        description: 'A full-stack e-commerce platform with payment integration, shopping cart, and admin dashboard.',
+        title: 'ShatheCholo - Safe Sharing, Smarter Journeys. (Working)',
+        description: 'ShatheCholo connects nearby travelers for short-distance ride-sharing and cost-splitting with strict ID verification and customizable safety preferences. For long trips, families and groups can hire cars at fair prices while AI monitors voice and video to detect harassment. ShatheCholo ensures affordable, secure, and transparent travel for everyone.',
         image: 'https://cdn.dribbble.com/userupload/23873962/file/original-22ca979805d2ef6d5a0482695881caf4.jpg?resize=752x564&vertical=center',
         technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
         demoUrl: 'https://example.com',
         githubUrl: 'https://github.com'
     },
     {
-        title: 'Task Management App',
-        description: 'A collaborative task management application with real-time updates and team collaboration features.',
+        title: 'DirectEdge - Where Agriculture Meets Intelligence.',
+        description: 'DirectEdge is a smart 3-sided digital platform designed to simplify agricultural supply chains by connecting farmers, distributors, and shop owners. It aims to eliminate inefficiencies caused by middlemen, improve logistics, and provide real-time inventory and demand forecasting using advanced technologies like computer vision and machine learning.',
         image: 'https://via.placeholder.com/400x250/764ba2/ffffff?text=Task+Manager',
         technologies: ['React', 'Firebase', 'Material-UI'],
         demoUrl: 'https://example.com',
         githubUrl: 'https://github.com'
     },
     {
-        title: 'Weather Dashboard',
-        description: 'A responsive weather application that displays current weather and 7-day forecasts for multiple cities.',
+        title: 'Cook Corner - Nourish your body, extend your life.',
+        description: 'Cook Corner is a smart recipe platform that lets users browse dishes, generate recipes from their available ingredients, track calorie intake, and get personalized healthy meal suggestions.',
         image: 'https://via.placeholder.com/400x250/f093fb/ffffff?text=Weather+Dashboard',
         technologies: ['React', 'OpenWeather API', 'Chart.js'],
         demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com'
+        githubUrl: 'https://github.com/TashinParvez/Cook-Corner'
     },
     {
-        title: 'Social Media App',
-        description: 'A social networking platform with posts, comments, likes, and user profiles.',
+        title: 'ExeCode - Where Code Meets Challenge',
+        description: 'ExeCode is an online competitive programming platform offering a complete environment for users to practice, compete, and improve their coding skills.',
         image: 'https://via.placeholder.com/400x250/2563eb/ffffff?text=Social+Media',
         technologies: ['React', 'Express', 'PostgreSQL', 'Socket.io'],
         demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com'
+        githubUrl: 'https://github.com/mahbub623a/ExeCode'
     },
-    {
-        title: 'Portfolio Generator',
-        description: 'A tool that helps developers create professional portfolio websites with customizable templates.',
-        image: 'https://cdn.dribbble.com/userupload/42037829/file/original-e0d93351e21e39827094f2257c6ec021.jpg?resize=1000x750&vertical=center',
-        technologies: ['React', 'Next.js', 'Tailwind CSS'],
-        demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com'
-    },
-    {
-        title: 'Fitness Tracker',
-        description: 'A mobile-responsive fitness tracking app with workout plans, progress tracking, and nutrition tips.',
-        image: 'https://via.placeholder.com/400x250/fa709a/ffffff?text=Fitness+Tracker',
-        technologies: ['React Native', 'Redux', 'Firebase'],
-        demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com'
-    }
+    // {
+    //     title: 'Portfolio Generator',
+    //     description: 'A tool that helps developers create professional portfolio websites with customizable templates.',
+    //     image: 'https://cdn.dribbble.com/userupload/42037829/file/original-e0d93351e21e39827094f2257c6ec021.jpg?resize=1000x750&vertical=center',
+    //     technologies: ['React', 'Next.js', 'Tailwind CSS'],
+    //     demoUrl: 'https://example.com',
+    //     githubUrl: 'https://github.com'
+    // },
+    // {
+    //     title: 'Fitness Tracker',
+    //     description: 'A mobile-responsive fitness tracking app with workout plans, progress tracking, and nutrition tips.',
+    //     image: 'https://via.placeholder.com/400x250/fa709a/ffffff?text=Fitness+Tracker',
+    //     technologies: ['React Native', 'Redux', 'Firebase'],
+    //     demoUrl: 'https://example.com',
+    //     githubUrl: 'https://github.com'
+    // }
 ];
 
 export const skillsData = [
@@ -58,10 +58,11 @@ export const skillsData = [
             { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
             { name: 'React Native', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
             { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-            { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
+            // { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
             { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
             { name: 'CSS3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
             { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
+            { name: 'Bootstrap', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
             { name: 'Material-UI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg' },
             // { name: 'Redux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' },
             { name: 'Next.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
@@ -98,10 +99,9 @@ export const skillsData = [
         category: 'Design & Other',
         skills: [
             { name: 'Figma', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg' },
-            { name: 'Photoshop', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg' },
-            { name: 'VS Code', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' },
+            // { name: 'Photoshop', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg' },
             { name: 'Firebase', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
-            { name: 'Bootstrap', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
+            { name: 'VS Code', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' },
             // { name: 'Sass', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' }
         ]
     }
@@ -113,7 +113,7 @@ export const skillsData = [
         period: 'Running',
         description: 'Currently in 4th year, specializing in software development, competitive programming, and machine learning.',
         achievements: [
-            'CGPA: 3.41/4.0',
+            'CGPA: 0.0/4.0',
             'Scholarship Award Recipient',
             'Active competitive programmer',
             'Full-stack web development experience'
@@ -174,21 +174,24 @@ export const experienceData = [
 
 export const achievementsData = [
     {
-        icon: '🏆',
+        icon: 'fas fa-trophy',
+        color: '#f59e0b',
         year: '2025',
         title: 'UIU CSE Project Show',
         organization: 'United International University',
         description: '1st Runners Up among 600+ teams'
     },
     {
-        icon: '🎓',
+        icon: 'fas fa-graduation-cap',
+        color: '#8b5cf6',
         year: '2017',
         title: 'Scholarships Award',
         organization: 'Pabna Islamia Madrasah',
         description: '4th in JDC Exam in Rajshahi Division, Madrasah Board'
     },
     {
-        icon: '🎓',
+        icon: 'fas fa-graduation-cap',
+        color: '#8b5cf6',
         year: '2014',
         title: 'Scholarships Award',
         organization: 'Pabna Islamia Madrasah',

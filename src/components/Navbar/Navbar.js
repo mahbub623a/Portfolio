@@ -70,7 +70,7 @@ const Navbar = () => {
                         scrollToSection('home');
                     }}
                 >
-                    Portfolio
+                    Mahbub
                 </a>
 
                 <div className={styles.hamburger} onClick={toggleMobileMenu}>
