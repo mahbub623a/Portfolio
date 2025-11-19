@@ -15,7 +15,7 @@ export const projectsData = [
         image: 'https://via.placeholder.com/400x250/764ba2/ffffff?text=Task+Manager',
         technologies: ['React', 'Firebase', 'Material-UI'],
         demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com'
+        githubUrl: 'https://github.com/TashinParvez/direct-edge'
     },
     {
         title: 'Cook Corner - Nourish your body, extend your life.',
