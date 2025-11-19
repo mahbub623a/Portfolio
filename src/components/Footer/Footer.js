@@ -22,7 +22,7 @@ const Footer = () => {
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>                    <div className={styles.section}>
-                        <h4>Connect</h4>
+                        <h4>Connect with me</h4>
                         <div className={styles.socialLinks}>
                             <a href="https://github.com/mahbub623a" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">

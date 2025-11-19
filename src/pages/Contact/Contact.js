@@ -139,7 +139,7 @@ const Contact = () => {
                                     value={formData.message}
                                     onChange={handleChange}
                                     required
-                                    rows="6"
+                                    rows="4"
                                     placeholder="Your message..."
                                 ></textarea>
                             </div>
