@@ -98,8 +98,8 @@
 .period {
     display: inline-block;
     padding: 0.4rem 1rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #fff;
+    background: #dbeafe;
+    color: #1e40af;
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 600;
