@@ -35,15 +35,15 @@ const Skills = () => {
 
                 <div className={styles.additionalInfo}>
                     <div className={styles.infoCard}>
-                        <h3>🎯 Always Learning</h3>
+                        <h3><i className="fas fa-graduation-cap" style={{ color: '#4d2ffcff' }}></i> Always Learning</h3>
                         <p>I'm constantly expanding my skill set and staying updated with the latest technologies and best practices in software development.</p>
                     </div>
                     <div className={styles.infoCard}>
-                        <h3>🤝 Team Player</h3>
+                        <h3><i className="fas fa-users" style={{ color: '#1f0ed4ff' }}></i> Team Player</h3>
                         <p>Experienced in collaborating with cross-functional teams using Agile methodologies and modern development workflows.</p>
                     </div>
                     <div className={styles.infoCard}>
-                        <h3>💡 Problem Solver</h3>
+                        <h3><i className="fas fa-lightbulb" style={{ color: '#fbbf24' }}></i> Problem Solver</h3>
                         <p>Strong analytical skills with a passion for solving complex problems and creating efficient, scalable solutions.</p>
                     </div>
                 </div>
