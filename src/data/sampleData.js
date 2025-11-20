@@ -113,7 +113,7 @@ export const skillsData = [
         period: 'Running',
         description: 'Currently in 4th year, specializing in software development, competitive programming, and machine learning.',
         achievements: [
-            'CGPA: 0.0/4.0',
+            'CGPA: 3.17/4.0',
             'Scholarship Award Recipient',
             'Active competitive programmer',
             'Full-stack web development experience'
@@ -138,7 +138,8 @@ export const skillsData = [
         description: 'Completed Dakhil level education with outstanding results.',
         achievements: [
             'GPA: 5.0/5.0',
-            'Scholarship Award Recipient'
+            "4th in division",
+            'Scholarship Award Recipient',
         ]
     },
     {
@@ -149,6 +150,7 @@ export const skillsData = [
         description: 'Completed Junior Dakhil education with excellent academic performance.',
         achievements: [
             'GPA: 5.0/5.0',
+            "4th in division",
             'Scholarship Award Recipient'
         ]
     }
@@ -179,7 +181,7 @@ export const achievementsData = [
         year: '2025',
         title: 'UIU CSE Project Show',
         organization: 'United International University',
-        description: '1st Runners Up among 600+ teams'
+        description: '1st Runners Up among 65+ teams'
     },
     {
         icon: 'fas fa-graduation-cap',
@@ -187,7 +189,7 @@ export const achievementsData = [
         year: '2017',
         title: 'Scholarships Award',
         organization: 'Pabna Islamia Madrasah',
-        description: '4th in JDC Exam in Rajshahi Division, Madrasah Board'
+        description: '4th in Dakhil Exam in Rajshahi Division, Madrasah Board'
     },
     {
         icon: 'fas fa-graduation-cap',
@@ -195,6 +197,6 @@ export const achievementsData = [
         year: '2014',
         title: 'Scholarships Award',
         organization: 'Pabna Islamia Madrasah',
-        description: '5th in JDC Exam in Rajshahi Division, Madrasah Board'
+        description: '4th in Junior Dakhil Exam in Rajshahi Division, Madrasah Board'
     }
 ];
