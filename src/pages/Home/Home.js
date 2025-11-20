@@ -64,13 +64,13 @@ const Home = () => {
                     <div className={styles.highlightGrid}>
                         <div className={styles.highlightCard}>
                             <div className={styles.icon}><i className="fas fa-rocket" style={{ color: '#2563eb' }}></i></div>
-                            <h3>10+</h3>
+                            <h3>5+</h3>
                             <p>Projects Completed</p>
                         </div>
                         <div className={styles.highlightCard}>
                             <div className={styles.icon}><i className="fas fa-star" style={{ color: '#fbbf24' }}></i></div>
-                            <h3>0.0</h3>
-                            <p>CGPA</p>
+                            <h3>0+ Years</h3>
+                            <p>Experience</p>
                         </div>
                         <div className={styles.highlightCard}>
                             <div className={styles.icon}><i className="fas fa-graduation-cap" style={{ color: '#8b5cf6' }}></i></div>
