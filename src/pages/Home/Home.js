@@ -50,9 +50,9 @@ const Home = () => {
                     <div className={styles.imageContainer}>
                         <div className={styles.imagePlaceholder}>
                             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="100" cy="100" r="80" fill="#2563eb" opacity="0.1" />
-                                <circle cx="100" cy="100" r="60" fill="#2563eb" opacity="0.2" />
-                                <circle cx="100" cy="100" r="40" fill="#2563eb" opacity="0.3" />
+                                <circle cx="100" cy="100" r="80" fill="#ffffff" opacity="0.02" />
+                                <circle cx="100" cy="100" r="60" fill="#ffffff" opacity="0.04" />
+                                <circle cx="100" cy="100" r="40" fill="#ffffff" opacity="0.03" />
                             </svg>
                         </div>
                     </div>
