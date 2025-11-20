@@ -28,7 +28,7 @@ const About = () => {
                             through photography. I'm always eager to take on new challenges and contribute to innovative projects.
                         </p>
 
-                        <div className={styles.infoGrid}>
+                        {/* <div className={styles.infoGrid}>
                             <div className={styles.infoItem}>
                                 <strong>Location:</strong>
                                 <span>Dhaka, Bangladesh</span>
@@ -45,7 +45,7 @@ const About = () => {
                                 <strong>CGPA:</strong>
                                 <span>0.0/4.0</span>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className={styles.interests}>
                             <h3>Interests & Hobbies</h3>
