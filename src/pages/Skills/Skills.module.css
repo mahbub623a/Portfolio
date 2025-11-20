@@ -33,10 +33,13 @@
 .allSkillsSection {
     padding: 3rem;
     border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
 }
 
 .categoryGroup {
-    margin-bottom: 3rem;
+    margin-bottom: 0;
 }
 
 .categoryGroup:last-child {
@@ -50,12 +53,14 @@
     padding-bottom: 0.8rem;
     border-bottom: 2px solid #e0e7ff;
     font-weight: 600;
+    text-align: center;
 }
 
 .skillsGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
+    justify-content: center;
 }
 
 .skillIcon {
@@ -69,6 +74,7 @@
     transition: all 0.3s ease;
     gap: 0.6rem;
     cursor: pointer;
+    width: 90px;
 }
 
 .skillIcon:hover {
@@ -135,10 +141,12 @@
 
     .allSkillsSection {
         padding: 2rem 1.5rem;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
     }
 
     .categoryGroup {
-        margin-bottom: 2.5rem;
+        margin-bottom: 0;
     }
 
     .categoryTitle {
