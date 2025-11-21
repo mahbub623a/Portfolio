@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { emailConfig } from '../../config/emailConfig';
 import styles from './Contact.module.css';
 
 const Contact = () => {
@@ -9,6 +11,10 @@ const Contact = () => {
         message: ''
     });
 
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitStatus, setSubmitStatus] = useState(null);
+    const [showSuccessModal, setShowSuccessModal] = useState(false);
+
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -16,15 +22,74 @@ const Contact = () => {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Here you would typically handle form submission
-        alert('Thank you for your message! I will get back to you soon.');
-        setFormData({ name: '', email: '', subject: '', message: '' });
+        setIsSubmitting(true);
+        setSubmitStatus(null);
+
+        // Format time for Dhaka
+        const time = new Intl.DateTimeFormat('en-GB', {
+            dateStyle: 'medium',
+            timeStyle: 'short',
+            timeZone: 'Asia/Dhaka'
+        }).format(new Date());
+
+        const templateParams = {
+            from_name: formData.name,
+            from_email: formData.email,
+            subject: formData.subject,
+            message: formData.message,
+            to_email: 'mrahman623a@gmail.com',
+            time: time, // <-- Added time field
+        };
+
+        console.log("Email sending params:", templateParams); // Debugging
+
+        try {
+            await emailjs.send(
+                emailConfig.serviceId,
+                emailConfig.templateId,
+                templateParams,
+                emailConfig.publicKey
+            );
+
+            setSubmitStatus('success');
+            setFormData({
+                name: '',
+                email: '',
+                subject: '',
+                message: ''
+            });
+
+            setShowSuccessModal(true);
+        } catch (error) {
+            console.error('Email sending failed:', error);
+            setSubmitStatus('error');
+            alert('Sorry, there was an error sending your message. Please try again or email me directly.');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
         <div className={styles.contact}>
+            {showSuccessModal && (
+                <div className={styles.modalOverlay} onClick={() => setShowSuccessModal(false)}>
+                    <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
+                        <div className={styles.modalIcon}>
+                            <i className="fas fa-check-circle"></i>
+                        </div>
+                        <h2>Message Sent Successfully!</h2>
+                        <p>Thank you for reaching out! I'll get back to you as soon as possible.</p>
+                        <button
+                            className={styles.modalBtn}
+                            onClick={() => setShowSuccessModal(false)}
+                        >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            )}
             <div className={styles.container}>
                 <div className={styles.header}>
                     <h1>Get In Touch</h1>
@@ -144,8 +209,8 @@ const Contact = () => {
                                 ></textarea>
                             </div>
 
-                            <button type="submit" className={styles.submitBtn}>
-                                Send Message
+                            <button type="submit" className={styles.submitBtn} disabled={isSubmitting}>
+                                {isSubmitting ? 'Sending...' : 'Send Message'}
                             </button>
                         </form>
                     </div>

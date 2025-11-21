@@ -113,7 +113,7 @@ export const skillsData = [
         period: 'Running',
         description: 'Currently in 4th year, specializing in software development, competitive programming, and machine learning.',
         achievements: [
-            'CGPA: 3.49/4.0',
+            'CGPA: NA/4.0',
             'Scholarship Award Recipient',
             'Active competitive programmer',
             'Full-stack web development experience'
