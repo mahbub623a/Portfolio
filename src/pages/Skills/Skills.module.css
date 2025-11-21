@@ -154,8 +154,12 @@
     }
 
     .skillsGrid {
-        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
         gap: 1rem;
+    }
+
+    .skillIcon {
+        width: 80px;
+        padding: 0.8rem 0.4rem;
     }
 
     .skillIcon img {

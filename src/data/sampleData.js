@@ -113,7 +113,7 @@ export const skillsData = [
         period: 'Running',
         description: 'Currently in 4th year, specializing in software development, competitive programming, and machine learning.',
         achievements: [
-            'CGPA: 3.17/4.0',
+            'CGPA: 3.49/4.0',
             'Scholarship Award Recipient',
             'Active competitive programmer',
             'Full-stack web development experience'
@@ -187,7 +187,7 @@ export const achievementsData = [
         icon: 'fas fa-graduation-cap',
         color: '#8b5cf6',
         year: '2017',
-        title: 'Scholarships Award',
+        title: 'Scholarship Award',
         organization: 'Pabna Islamia Madrasah',
         description: '4th in Dakhil Exam in Rajshahi Division, Madrasah Board'
     },
@@ -195,7 +195,7 @@ export const achievementsData = [
         icon: 'fas fa-graduation-cap',
         color: '#8b5cf6',
         year: '2014',
-        title: 'Scholarships Award',
+        title: 'Scholarship Award',
         organization: 'Pabna Islamia Madrasah',
         description: '4th in Junior Dakhil Exam in Rajshahi Division, Madrasah Board'
     }

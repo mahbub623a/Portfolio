@@ -209,7 +209,49 @@
         font-size: 1rem;
     }
 
+    .highlights {
+        padding: 3rem 0;
+    }
+
     .highlightGrid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .highlightCard {
+        padding: 1.5rem 1rem;
+    }
+
+    .icon {
+        font-size: 2.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .highlightCard h3 {
+        font-size: 2rem;
+        margin: 0.3rem 0;
+    }
+
+    .highlightCard p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .highlightGrid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .highlightCard {
+        padding: 1.5rem;
+    }
+
+    .icon {
+        font-size: 2.5rem;
+    }
+
+    .highlightCard h3 {
+        font-size: 2rem;
     }
 }
