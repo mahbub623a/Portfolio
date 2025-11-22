@@ -7,7 +7,7 @@ export const projectsData = [
         image: 'https://cdn.dribbble.com/userupload/23873962/file/original-22ca979805d2ef6d5a0482695881caf4.jpg?resize=752x564&vertical=center',
         technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
         demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com'
+        githubUrl: 'https://github.com/'
     },
     {
         title: 'DirectEdge - Where Agriculture Meets Intelligence.',
@@ -15,7 +15,7 @@ export const projectsData = [
         image: 'https://via.placeholder.com/400x250/764ba2/ffffff?text=Task+Manager',
         technologies: ['React', 'Firebase', 'Material-UI'],
         demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com/TashinParvez/direct-edge'
+        githubUrl: 'https://github.com/TashinParvez/direct-edge/'
     },
     {
         title: 'Cook Corner - Nourish your body, extend your life.',
@@ -23,16 +23,24 @@ export const projectsData = [
         image: 'https://via.placeholder.com/400x250/f093fb/ffffff?text=Weather+Dashboard',
         technologies: ['React', 'OpenWeather API', 'Chart.js'],
         demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com/TashinParvez/Cook-Corner'
+        githubUrl: 'https://github.com/TashinParvez/Cook-Corner/'
     },
     {
-        title: 'ExeCode - Where Code Meets Challenge',
+        title: 'ExeCode - Where Code Meets Challenge.',
         description: 'ExeCode is an online competitive programming platform offering a complete environment for users to practice, compete, and improve their coding skills.',
         image: 'https://via.placeholder.com/400x250/2563eb/ffffff?text=Social+Media',
         technologies: ['React', 'Express', 'PostgreSQL', 'Socket.io'],
         demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com/mahbub623a/ExeCode'
+        githubUrl: 'https://github.com/mahbub623a/ExeCode/'
     },
+    // {
+    //     title: 'ExeCode - Where Code Meets Challenge.',
+    //     description: 'ExeCode is an online competitive programming platform offering a complete environment for users to practice, compete, and improve their coding skills.',
+    //     image: 'https://via.placeholder.com/400x250/2563eb/ffffff?text=Social+Media',
+    //     technologies: ['React', 'Express', 'PostgreSQL', 'Socket.io'],
+    //     demoUrl: 'https://example.com',
+    //     githubUrl: 'https://github.com/mahbub623a/ExeCode/'
+    // },
     // {
     //     title: 'Portfolio Generator',
     //     description: 'A tool that helps developers create professional portfolio websites with customizable templates.',
@@ -59,10 +67,10 @@ export const skillsData = [
             { name: 'React Native', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
             { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
             // { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
-            // { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
-            // { name: 'CSS3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
             { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
             { name: 'Bootstrap', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
+            { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+            { name: 'CSS3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
             // { name: 'Material-UI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg' },
             // { name: 'Redux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' },
             // { name: 'Next.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
@@ -80,6 +88,8 @@ export const skillsData = [
             // { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
             { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
             // { name: 'GraphQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg' }
+            { name: 'C++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },
+            { name: 'C', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg' }
         ]
     },
     {
@@ -198,5 +208,13 @@ export const achievementsData = [
         title: 'Scholarship Award',
         organization: 'Pabna Islamia Madrasah',
         description: '4th in Junior Dakhil Exam in Rajshahi Division, Madrasah Board'
-    }
+    },
+    // {
+    //     icon: 'fas fa-graduation-cap',
+    //     color: '#8b5cf6',
+    //     year: '2014',
+    //     title: 'Scholarship Award',
+    //     organization: 'Pabna Islamia Madrasah',
+    //     description: '4th in Junior Dakhil Exam in Rajshahi Division, Madrasah Board'
+    // },
 ];

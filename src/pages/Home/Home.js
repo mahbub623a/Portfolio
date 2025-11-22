@@ -19,10 +19,9 @@ const Home = () => {
                 <div className={styles.container}>
                     <div className={styles.content}>
                         <h1 className={styles.greeting}>Hi, I'm <span className={styles.name}>Mahbubur Rahman</span></h1>
-                        <h2 className={styles.title}>Full Stack Developer & Competitive Programmer</h2>
+                        <h2 className={styles.title}>Competitive Programmer & Software Engineer</h2>
                         <p className={styles.description}>
-                            I create beautiful, functional, and user-friendly digital experiences.
-                            Passionate about competitive programming, web development, and machine learning.
+                            I am passionate about competitive programming, Software development and machine learning.
                         </p>
                         <div className={styles.cta}>
                             <a

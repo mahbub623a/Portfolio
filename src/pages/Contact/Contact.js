@@ -151,6 +151,12 @@ const Contact = () => {
                                 <a href="https://www.facebook.com/mahbub623a" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-facebook"></i>
                                 </a>
+                                <a href="https://twitter.com/mahbub623a" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                    <i className="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/mahbub623a" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                    <i className="fab fa-instagram"></i>
+                                </a>
                             </div>
                         </div>
                     </div>

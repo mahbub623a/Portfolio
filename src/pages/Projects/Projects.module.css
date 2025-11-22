@@ -1,6 +1,6 @@
 .projects {
     min-height: 100vh;
-    padding: 6rem 0 4rem;
+    padding: 3rem 0 4rem;
     background: #f8fafc;
 }
 
@@ -12,11 +12,11 @@
 
 .header {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 
 .header h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #1e293b;
     margin-bottom: 0.5rem;
 }
@@ -46,15 +46,31 @@
 
 @media (max-width: 768px) {
     .projects {
-        padding: 5rem 0 2rem;
+        padding: 3rem 0 2rem;
+    }
+
+    .container {
+        padding: 0 2rem;
+    }
+
+    .header {
+        margin-bottom: 2rem;
     }
 
     .header h1 {
         font-size: 2rem;
     }
 
+    .subtitle {
+        font-size: 1rem;
+    }
+
     .projectsGrid {
         grid-template-columns: 1fr;
         gap: 0;
+    }
+
+    .projectsGrid::before {
+        display: none;
     }
 }
