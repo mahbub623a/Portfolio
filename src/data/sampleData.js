@@ -116,7 +116,6 @@ export const skillsData = [
             'CGPA: NA/4.0',
             'Scholarship Award Recipient',
             'Active competitive programmer',
-            'Full-stack web development experience'
         ]
     },
     {
@@ -127,7 +126,8 @@ export const skillsData = [
         description: 'Completed Alim level education with excellent academic performance.',
         achievements: [
             'GPA: 5.0/5.0',
-            'Outstanding academic achievement'
+            'Outstanding academic achievement',
+            'Scholarship Award Recipient',
         ]
     },
     {
@@ -147,7 +147,7 @@ export const skillsData = [
         institution: 'Pabna Islamia Madrasah',
         location: 'Pabna, Bangladesh',
         period: '2014',
-        description: 'Completed Junior Dakhil education with excellent academic performance.',
+        description: 'Completed Junior Dakhil education with outstanding results.',
         achievements: [
             'GPA: 5.0/5.0',
             "4th in division",
