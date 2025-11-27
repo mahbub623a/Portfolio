@@ -31,7 +31,7 @@ export const projectsData = [
         image: 'https://via.placeholder.com/400x250/2563eb/ffffff?text=Social+Media',
         technologies: ['React', 'Express', 'PostgreSQL', 'Socket.io'],
         demoUrl: 'https://example.com',
-        githubUrl: 'https://github.com/mahbub623a/ExeCode/'
+        githubUrl: 'https://github.com/mrahman441/ExeCode/'
     },
     // {
     //     title: 'ExeCode - Where Code Meets Challenge.',

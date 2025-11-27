@@ -35,7 +35,7 @@ const About = () => {
                             </div>
                             <div className={styles.infoItem}>
                                 <strong>Email:</strong>
-                                <span>mrahman623a@gmail.com</span>
+                                <span>mrahman221441@gmail.com</span>
                             </div>
                             <div className={styles.infoItem}>
                                 <strong>Phone:</strong>

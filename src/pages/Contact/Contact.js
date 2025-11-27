@@ -39,7 +39,7 @@ const Contact = () => {
             from_email: formData.email,
             subject: formData.subject,
             message: formData.message,
-            to_email: 'mrahman623a@gmail.com',
+            to_email: 'mrahman221441@gmail.com',
             time: time, // <-- Added time field
         };
 
@@ -108,7 +108,7 @@ const Contact = () => {
                                 <div className={styles.contactIcon}><i className="fas fa-envelope"></i></div>
                                 <div>
                                     <h4>Email</h4>
-                                    <a href="mailto:mrahman623a@gmail.com">mrahman623a@gmail.com</a>
+                                    <a href="mailto:mrahman221441@gmail.com">mrahman221441@gmail.com</a>
                                 </div>
                             </div>
 
@@ -142,7 +142,7 @@ const Contact = () => {
                         <div className={styles.social}>
                             <h3>Follow Me</h3>
                             <div className={styles.socialLinks}>
-                                <a href="https://github.com/mahbub623a" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/mrahman441" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-github"></i>
                                 </a>
                                 <a href="https://www.linkedin.com/in/mrahman441" target="_blank" rel="noopener noreferrer">
@@ -172,7 +172,7 @@ const Contact = () => {
                                     value={formData.name}
                                     onChange={handleChange}
                                     required
-                                    placeholder="Your name"
+                                    placeholder="Mahbubur Rahman"
                                 />
                             </div>
 
@@ -185,7 +185,7 @@ const Contact = () => {
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
-                                    placeholder="your.email@example.com"
+                                    placeholder="mrahman221441@gmail.com"
                                 />
                             </div>
 
