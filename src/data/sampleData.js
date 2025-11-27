@@ -121,7 +121,7 @@ export const skillsData = [
         institution: 'United International University',
         location: 'Dhaka, Bangladesh',
         period: 'Running',
-        description: 'Currently in 4th year, specializing in software development, competitive programming, and machine learning.',
+        description: 'Currently in 4th year, specializing competitive programming and machine learning.',
         achievements: [
             'CGPA: NA/4.0',
             'Scholarship Award Recipient',
