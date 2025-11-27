@@ -101,22 +101,6 @@
     transform: translateY(-4px);
 }
 
-.contentGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
-.leftSection {
-    display: flex;
-    flex-direction: column;
-}
-
-.rightSection {
-    display: flex;
-    align-items: center;
-}
-
 .period {
     display: inline-block;
     padding: 0.4rem 1rem;
@@ -126,7 +110,6 @@
     font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    width: fit-content;
 }
 
 .timelineContent h3 {
@@ -157,7 +140,7 @@
 .achievements {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 1rem 0 0 0;
 }
 
 .achievements li {
@@ -197,11 +180,6 @@
 
     .timelineContent {
         padding: 1.5rem;
-    }
-
-    .contentGrid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
     }
 
     .timelineContent h3 {

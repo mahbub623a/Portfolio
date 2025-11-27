@@ -16,24 +16,18 @@ const Education = () => {
                         <div key={index} className={styles.timelineItem}>
                             <div className={styles.timelineMarker}></div>
                             <div className={styles.timelineContent}>
-                                <div className={styles.contentGrid}>
-                                    <div className={styles.leftSection}>
-                                        <div className={styles.period}>{edu.period}</div>
-                                        <h3>{edu.degree}</h3>
-                                        <h4>{edu.institution}</h4>
-                                        <p className={styles.location}>{edu.location}</p>
-                                        {edu.description && <p className={styles.description}>{edu.description}</p>}
-                                    </div>
-                                    {edu.achievements && (
-                                        <div className={styles.rightSection}>
-                                            <ul className={styles.achievements}>
-                                                {edu.achievements.map((achievement, idx) => (
-                                                    <li key={idx}>{achievement}</li>
-                                                ))}
-                                            </ul>
-                                        </div>
-                                    )}
-                                </div>
+                                <div className={styles.period}>{edu.period}</div>
+                                <h3>{edu.degree}</h3>
+                                <h4>{edu.institution}</h4>
+                                <p className={styles.location}>{edu.location}</p>
+                                {edu.description && <p className={styles.description}>{edu.description}</p>}
+                                {edu.achievements && (
+                                    <ul className={styles.achievements}>
+                                        {edu.achievements.map((achievement, idx) => (
+                                            <li key={idx}>{achievement}</li>
+                                        ))}
+                                    </ul>
+                                )}
                             </div>
                         </div>
                     ))}
